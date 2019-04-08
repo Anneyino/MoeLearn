@@ -14,6 +14,16 @@
 		35B714D52241FF1F00D3B6FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35B714D32241FF1F00D3B6FD /* LaunchScreen.storyboard */; };
 		35B714E02241FF1F00D3B6FD /* demoGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B714DF2241FF1F00D3B6FD /* demoGameTests.swift */; };
 		35B714EB2241FF1F00D3B6FD /* demoGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B714EA2241FF1F00D3B6FD /* demoGameUITests.swift */; };
+		35B714FA224924F700D3B6FD /* Figures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B714F9224924F700D3B6FD /* Figures.swift */; };
+		35B714FC22492FD300D3B6FD /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B714FB22492FD300D3B6FD /* User.swift */; };
+		35B714FE2249325B00D3B6FD /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B714FD2249325B00D3B6FD /* Question.swift */; };
+		35B71500224A013C00D3B6FD /* Study_interface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B714FF224A013B00D3B6FD /* Study_interface.swift */; };
+		35B71502224C754900D3B6FD /* Subject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B71501224C754900D3B6FD /* Subject.swift */; };
+		35B71504224C786A00D3B6FD /* Chapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B71503224C786A00D3B6FD /* Chapter.swift */; };
+		35B7150A225251C400D3B6FD /* HTML5 in Resources */ = {isa = PBXBuildFile; fileRef = 35B71509225251C400D3B6FD /* HTML5 */; };
+		35B7150C225252D500D3B6FD /* Home_interface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35B7150B225252D500D3B6FD /* Home_interface.swift */; };
+		35FCC22E22570A45001699FE /* JSLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35FCC22D22570A45001699FE /* JSLog.swift */; };
+		35FF371D225638CA001EB757 /* WebConsole.m in Sources */ = {isa = PBXBuildFile; fileRef = 35FF371C225638CA001EB757 /* WebConsole.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +57,18 @@
 		35B714E62241FF1F00D3B6FD /* demoGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = demoGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		35B714EA2241FF1F00D3B6FD /* demoGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = demoGameUITests.swift; sourceTree = "<group>"; };
 		35B714EC2241FF1F00D3B6FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35B714F9224924F700D3B6FD /* Figures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Figures.swift; sourceTree = "<group>"; };
+		35B714FB22492FD300D3B6FD /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		35B714FD2249325B00D3B6FD /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		35B714FF224A013B00D3B6FD /* Study_interface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Study_interface.swift; sourceTree = "<group>"; };
+		35B71501224C754900D3B6FD /* Subject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subject.swift; sourceTree = "<group>"; };
+		35B71503224C786A00D3B6FD /* Chapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter.swift; sourceTree = "<group>"; };
+		35B71509225251C400D3B6FD /* HTML5 */ = {isa = PBXFileReference; lastKnownFileType = folder; name = HTML5; path = ../../HTML5; sourceTree = "<group>"; };
+		35B7150B225252D500D3B6FD /* Home_interface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home_interface.swift; sourceTree = "<group>"; };
+		35FCC22D22570A45001699FE /* JSLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSLog.swift; sourceTree = "<group>"; };
+		35FF371A225638CA001EB757 /* demoGame-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "demoGame-Bridging-Header.h"; sourceTree = "<group>"; };
+		35FF371B225638CA001EB757 /* WebConsole.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebConsole.h; sourceTree = "<group>"; };
+		35FF371C225638CA001EB757 /* WebConsole.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebConsole.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +119,24 @@
 		35B714C92241FF1D00D3B6FD /* demoGame */ = {
 			isa = PBXGroup;
 			children = (
+				35B71509225251C400D3B6FD /* HTML5 */,
 				35B714CA2241FF1D00D3B6FD /* AppDelegate.swift */,
 				35B714CC2241FF1D00D3B6FD /* ViewController.swift */,
 				35B714CE2241FF1D00D3B6FD /* Main.storyboard */,
 				35B714D12241FF1F00D3B6FD /* Assets.xcassets */,
 				35B714D32241FF1F00D3B6FD /* LaunchScreen.storyboard */,
 				35B714D62241FF1F00D3B6FD /* Info.plist */,
+				35B714F9224924F700D3B6FD /* Figures.swift */,
+				35B714FB22492FD300D3B6FD /* User.swift */,
+				35B714FD2249325B00D3B6FD /* Question.swift */,
+				35B714FF224A013B00D3B6FD /* Study_interface.swift */,
+				35B71501224C754900D3B6FD /* Subject.swift */,
+				35B71503224C786A00D3B6FD /* Chapter.swift */,
+				35B7150B225252D500D3B6FD /* Home_interface.swift */,
+				35FF371B225638CA001EB757 /* WebConsole.h */,
+				35FF371C225638CA001EB757 /* WebConsole.m */,
+				35FF371A225638CA001EB757 /* demoGame-Bridging-Header.h */,
+				35FCC22D22570A45001699FE /* JSLog.swift */,
 			);
 			path = demoGame;
 			sourceTree = "<group>";
@@ -193,6 +227,7 @@
 				TargetAttributes = {
 					35B714C62241FF1D00D3B6FD = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 					35B714DA2241FF1F00D3B6FD = {
 						CreatedOnToolsVersion = 10.1;
@@ -232,6 +267,7 @@
 				35B714D52241FF1F00D3B6FD /* LaunchScreen.storyboard in Resources */,
 				35B714D22241FF1F00D3B6FD /* Assets.xcassets in Resources */,
 				35B714D02241FF1D00D3B6FD /* Main.storyboard in Resources */,
+				35B7150A225251C400D3B6FD /* HTML5 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +292,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35B714FE2249325B00D3B6FD /* Question.swift in Sources */,
+				35B714FC22492FD300D3B6FD /* User.swift in Sources */,
+				35B71502224C754900D3B6FD /* Subject.swift in Sources */,
 				35B714CD2241FF1D00D3B6FD /* ViewController.swift in Sources */,
+				35FCC22E22570A45001699FE /* JSLog.swift in Sources */,
+				35FF371D225638CA001EB757 /* WebConsole.m in Sources */,
+				35B7150C225252D500D3B6FD /* Home_interface.swift in Sources */,
+				35B71500224A013C00D3B6FD /* Study_interface.swift in Sources */,
 				35B714CB2241FF1D00D3B6FD /* AppDelegate.swift in Sources */,
+				35B714FA224924F700D3B6FD /* Figures.swift in Sources */,
+				35B71504224C786A00D3B6FD /* Chapter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +477,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = demoGame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -440,6 +486,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.demoGame.demoGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/anneyino/Desktop/demoGame/demoGame/WebConsole.h;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -449,6 +497,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = demoGame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -457,6 +506,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.demoGame.demoGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/anneyino/Desktop/demoGame/demoGame/WebConsole.h;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
